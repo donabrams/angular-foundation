@@ -35,7 +35,7 @@ angular.module("mm.foundation.topbar", [])
 
         // https://github.com/jonathantneal/Polyfills-for-IE8/blob/master/getComputedStyle.js
         // getComputedStyle
-        this.getComputedStyle = this.getComputedStyle || (function () {
+        $window.getComputedStyle = $window.getComputedStyle || (function () {
             function getPixelSize(element, style, property, fontSize) {
                 var
                 sizeWithSuffix = style[property],
@@ -108,7 +108,7 @@ angular.module("mm.foundation.topbar", [])
         })(this);
 
         // https://gist.github.com/jonathantneal/3062955
-        (this.Element && function(ElementPrototype) {
+        ($window.Element && function(ElementPrototype) {
             ElementPrototype.matchesSelector = ElementPrototype.matchesSelector || 
             ElementPrototype.mozMatchesSelector ||
             ElementPrototype.msMatchesSelector ||

@@ -20,31 +20,31 @@
   <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet"/>
   <link rel="stylesheet" href="assets/rainbow.css"/>
   <link rel="stylesheet" href="assets/demo.css"/>
-  <link rel="author" href="https://github.com/circlingthesun/angular-foundation/graphs/contributors">
+  <link rel="author" href="https://github.com/madmimi/angular-foundation/graphs/contributors">
 </head>
 <body class="ng-cloak" ng-controller="MainCtrl">
 <div class="fixed">
-  <nav class="top-bar" options="{scrolltop : false}">
+  <top-bar scrolltop="false">
     <ul class="title-area">
       <li class="name">
         <h1><a href="#">Angular Foundation</a></h1>
       </li>
-      <li class="toggle-topbar menu-icon"><a href="#">Menu</a></li>
+      <li toggle-top-bar class="menu-icon"><a href="#">Menu</a></li>
     </ul>
     
-    <section class="top-bar-section">
+    <top-bar-section>
       <ul class="right">
         <li><a href="#getting_started">Getting started</a></li>
-        <li class="has-dropdown">
+        <li has-dropdown>
           <a href="#">Directives</a>
-          <ul id="directives-list" class="dropdown">
+          <ul id="directives-list" top-bar-dropdown>
             <li><a href="#accordion">Accordion</a></li><li><a href="#alert">Alert</a></li><li><a href="#buttons">Buttons</a></li><li><a href="#dropdownToggle">Dropdown Toggle</a></li><li><a href="#modal">Modal</a></li><li><a href="#offcanvas">Offcanvas</a></li><li><a href="#pagination">Pagination</a></li><li><a href="#popover">Popover</a></li><li><a href="#progressbar">Progressbar</a></li><li><a href="#rating">Rating</a></li><li><a href="#tabs">Tabs</a></li><li><a href="#tooltip">Tooltip</a></li><li><a href="#topbar">Topbar</a></li><li><a href="#tour">Tour</a></li><li><a href="#typeahead">Typeahead</a></li>
           </ul>
         </li>
         <li><a href="#animations">Animations</a></li>
       </ul>
-    </section>
-  </nav>
+    </top-bar-section>
+  </topbar>
 </div>
 <div class="header-placeholder"></div>
 <div role="main">
@@ -60,7 +60,7 @@
           <h3>With love, from <a href="http://github.com/madmimi/">Mad Mimi</a></h3>
           <hr>
           <p>
-            <a class="button radius large" href="https://github.com/circlingthesun/angular-foundation"><i class="fa fa-github"></i> Code on Github</a>
+            <a class="button radius large" href="https://github.com/madmimi/angular-foundation"><i class="fa fa-github"></i> Code on Github</a>
           </p>
         </div>
       </div>
@@ -92,7 +92,7 @@
           <p>
             Build files for all directives are distributed in several flavours: minified for production usage, un-minified
             for development, with or without templates. All the options are described and can be
-            <a href="https://github.com/circlingthesun/angular-foundation/tree/gh-pages">downloaded from here</a>.
+            <a href="https://github.com/madmimi/angular-foundation/tree/gh-pages">downloaded from here</a>.
           </p>
           <h3>Installation</h3>
           <p>As soon as you've got all the files downloaded and included in your page you just need to declare
@@ -105,7 +105,7 @@
           <section id="accordion">
             <div class="page-header">
               <h1>Accordion<small>
-                (<a target="_blank" href="https://github.com/circlingthesun/angular-foundation/tree/master/src/accordion">mm.foundation.accordion</a>)
+                (<a target="_blank" href="https://github.com/madmimi/angular-foundation/tree/master/src/accordion">mm.foundation.accordion</a>)
               </small></h1>
             </div>
             <div class="row">
@@ -240,7 +240,7 @@
           <section id="alert">
             <div class="page-header">
               <h1>Alert<small>
-                (<a target="_blank" href="https://github.com/circlingthesun/angular-foundation/tree/master/src/alert">mm.foundation.alert</a>)
+                (<a target="_blank" href="https://github.com/madmimi/angular-foundation/tree/master/src/alert">mm.foundation.alert</a>)
               </small></h1>
             </div>
             <div class="row">
@@ -319,7 +319,7 @@
           <section id="buttons">
             <div class="page-header">
               <h1>Buttons<small>
-                (<a target="_blank" href="https://github.com/circlingthesun/angular-foundation/tree/master/src/buttons">mm.foundation.buttons</a>)
+                (<a target="_blank" href="https://github.com/madmimi/angular-foundation/tree/master/src/buttons">mm.foundation.buttons</a>)
               </small></h1>
             </div>
             <div class="row">
@@ -420,7 +420,7 @@
           <section id="dropdownToggle">
             <div class="page-header">
               <h1>Dropdown Toggle<small>
-                (<a target="_blank" href="https://github.com/circlingthesun/angular-foundation/tree/master/src/dropdownToggle">mm.foundation.dropdownToggle</a>)
+                (<a target="_blank" href="https://github.com/madmimi/angular-foundation/tree/master/src/dropdownToggle">mm.foundation.dropdownToggle</a>)
               </small></h1>
             </div>
             <div class="row">
@@ -511,7 +511,7 @@
           <section id="modal">
             <div class="page-header">
               <h1>Modal<small>
-                (<a target="_blank" href="https://github.com/circlingthesun/angular-foundation/tree/master/src/modal">mm.foundation.modal</a>)
+                (<a target="_blank" href="https://github.com/madmimi/angular-foundation/tree/master/src/modal">mm.foundation.modal</a>)
               </small></h1>
             </div>
             <div class="row">
@@ -690,7 +690,7 @@ var ModalInstanceCtrl = function ($scope, $modalInstance, items) {
           <section id="offcanvas">
             <div class="page-header">
               <h1>Offcanvas<small>
-                (<a target="_blank" href="https://github.com/circlingthesun/angular-foundation/tree/master/src/offcanvas">mm.foundation.offcanvas</a>)
+                (<a target="_blank" href="https://github.com/madmimi/angular-foundation/tree/master/src/offcanvas">mm.foundation.offcanvas</a>)
               </small></h1>
             </div>
             <div class="row">
@@ -824,7 +824,7 @@ var ModalInstanceCtrl = function ($scope, $modalInstance, items) {
           <section id="pagination">
             <div class="page-header">
               <h1>Pagination<small>
-                (<a target="_blank" href="https://github.com/circlingthesun/angular-foundation/tree/master/src/pagination">mm.foundation.pagination</a>)
+                (<a target="_blank" href="https://github.com/madmimi/angular-foundation/tree/master/src/pagination">mm.foundation.pagination</a>)
               </small></h1>
             </div>
             <div class="row">
@@ -986,7 +986,7 @@ For <code>page</code>, <code>total-items</code>, <code>items-per-page</code>, <c
           <section id="popover">
             <div class="page-header">
               <h1>Popover<small>
-                (<a target="_blank" href="https://github.com/circlingthesun/angular-foundation/tree/master/src/popover">mm.foundation.popover</a>)
+                (<a target="_blank" href="https://github.com/madmimi/angular-foundation/tree/master/src/popover">mm.foundation.popover</a>)
               </small></h1>
             </div>
             <div class="row">
@@ -1128,7 +1128,7 @@ $tooltipProvider. See the <a href="#tooltip">tooltip</a> section for more inform
           <section id="progressbar">
             <div class="page-header">
               <h1>Progressbar<small>
-                (<a target="_blank" href="https://github.com/circlingthesun/angular-foundation/tree/master/src/progressbar">mm.foundation.progressbar</a>)
+                (<a target="_blank" href="https://github.com/madmimi/angular-foundation/tree/master/src/progressbar">mm.foundation.progressbar</a>)
               </small></h1>
             </div>
             <div class="row">
@@ -1276,7 +1276,7 @@ $tooltipProvider. See the <a href="#tooltip">tooltip</a> section for more inform
           <section id="rating">
             <div class="page-header">
               <h1>Rating<small>
-                (<a target="_blank" href="https://github.com/circlingthesun/angular-foundation/tree/master/src/rating">mm.foundation.rating</a>)
+                (<a target="_blank" href="https://github.com/madmimi/angular-foundation/tree/master/src/rating">mm.foundation.rating</a>)
               </small></h1>
             </div>
             <div class="row">
@@ -1424,7 +1424,7 @@ $tooltipProvider. See the <a href="#tooltip">tooltip</a> section for more inform
           <section id="tabs">
             <div class="page-header">
               <h1>Tabs<small>
-                (<a target="_blank" href="https://github.com/circlingthesun/angular-foundation/tree/master/src/tabs">mm.foundation.tabs</a>)
+                (<a target="_blank" href="https://github.com/madmimi/angular-foundation/tree/master/src/tabs">mm.foundation.tabs</a>)
               </small></h1>
             </div>
             <div class="row">
@@ -1569,7 +1569,7 @@ $tooltipProvider. See the <a href="#tooltip">tooltip</a> section for more inform
           <section id="tooltip">
             <div class="page-header">
               <h1>Tooltip<small>
-                (<a target="_blank" href="https://github.com/circlingthesun/angular-foundation/tree/master/src/tooltip">mm.foundation.tooltip</a>)
+                (<a target="_blank" href="https://github.com/madmimi/angular-foundation/tree/master/src/tooltip">mm.foundation.tooltip</a>)
               </small></h1>
             </div>
             <div class="row">
@@ -1744,27 +1744,27 @@ appendToBody: false
           <section id="topbar">
             <div class="page-header">
               <h1>Topbar<small>
-                (<a target="_blank" href="https://github.com/circlingthesun/angular-foundation/tree/master/src/topbar">mm.foundation.topbar</a>)
+                (<a target="_blank" href="https://github.com/madmimi/angular-foundation/tree/master/src/topbar">mm.foundation.topbar</a>)
               </small></h1>
             </div>
             <div class="row">
               <div class="columns medium-6 show-grid">
                 <div ng-controller="TopBarDemoCtrl">
-  <nav class="top-bar" options="settings">
+  <top-bar>
     <ul class="title-area">
       <li class="name">
         <h1><a href="#">My Site</a></h1>
       </li>
-      <li class="toggle-topbar menu-icon"><a href="#">Menu</a></li>
+      <li toggle-top-bar class="menu-icon"><a href="#">Menu</a></li>
     </ul>
 
-    <section class="top-bar-section">
+    <top-bar-section>
       <!-- Right Nav Section -->
       <ul class="right">
         <li class="active"><a href="#">Active</a></li>
-        <li class="has-dropdown">
+        <li has-dropdown>
           <a href="#">Dropdown</a>
-          <ul class="dropdown">
+          <ul top-bar-dropdown>
             <li><a href="#">First link in dropdown</a></li>
           </ul>
         </li>
@@ -1774,25 +1774,27 @@ appendToBody: false
       <ul class="left">
         <li><a href="#">Left</a></li>
       </ul>
-    </section>
-  </nav>
+    </top-bar-section>
+  </top-bar>
 </div>
               </div>
               <div class="columns medium-6">
-                <p>A directive that provides the <a href="http://foundation.zurb.com/docs/components/topbar.html">Foundation Offcanvas</a> component.</p>
+                <p>A directive that provides the <a href="http://foundation.zurb.com/docs/components/topbar.html">Foundation Top Bar</a> component.</p>
 
-<p>The directive works out of the box with Foundation's CSS and has virtually itentical behavour. The following settings can be passed in as an object with the "options" attribute:</p>
+<p>The directive has virtually identical behavior to Foundation Top Bar. The markup however, is slightly different. The top bar consist of a root <code>top-bar</code> element with nested <code>top-bar-section</code> elements that encapsulate menus. The <code>title-area</code> list is also a direct descendant of the root element. The mobile menu toggle is created by adding the <code>toggle-top-bar</code> attribute to a <code>li</code> element inside the title area. Applying <code>menu-icon</code> class to this element will trigger the icon as determined by the Foundation CSS. <code>li</code> elements that contain nested menus need to have the <code>has-dropdown</code> attribute. The nested list itself should have the <code>top-bar-dropdown</code> attribute.</p>
+
+<p>The following settings can be applied as attributes to the <code>top-bar</code> element:</p>
 
 <ul>
-<li><code>sticky_class</code>: Class name that will trigger sticky behaviour.</li>
-<li><code>custom_back_text</code>: Set this to false and it will pull the top level link name as the back text.</li>
-<li><code>back_text</code>: Define what you want your custom back text to be if custom<em>back</em>text.</li>
-<li><code>is_hover</code>: Toggle drop down menus on hover.</li>
-<li><code>mobile_show_parent_link</code>: will copy parent links into dropdowns for mobile navigation.</li>
+<li><code>sticky-class</code>: Class name that will trigger sticky behavior.</li>
+<li><code>custom-back-text</code>: Set this to false and it will pull the top level link name as the back text.</li>
+<li><code>back-text</code>: Define what you want your custom back text to be if custom<em>back</em>text.</li>
+<li><code>is-hover</code>: Toggle drop down menus on hover.</li>
+<li><code>mobile-show-parent-link</code>: will copy parent links into dropdowns for mobile navigation.</li>
 <li><code>scrolltop</code>: jump to top when sticky nav menu toggle is clicked</li>
 </ul>
 
-<p>See the demo page for example on how to use this and see the <a href="http://foundation.zurb.com/docs/components/topbar.html">Foundation docs</a> for more details.</p>
+<p>See the demo page for example on how to use this and visit the <a href="http://foundation.zurb.com/docs/components/topbar.html">Foundation docs</a> for more details.</p>
               </div>
             </div>
             <hr>
@@ -1805,21 +1807,21 @@ appendToBody: false
                   <tab heading="Markup">
                     <div plunker-content="markup">
                       <pre ng-non-bindable><code data-language="html">&lt;div ng-controller=&quot;TopBarDemoCtrl&quot;&gt;
-  &lt;nav class=&quot;top-bar&quot; options=&quot;settings&quot;&gt;
+  &lt;top-bar&gt;
     &lt;ul class=&quot;title-area&quot;&gt;
       &lt;li class=&quot;name&quot;&gt;
         &lt;h1&gt;&lt;a href=&quot;#&quot;&gt;My Site&lt;/a&gt;&lt;/h1&gt;
       &lt;/li&gt;
-      &lt;li class=&quot;toggle-topbar menu-icon&quot;&gt;&lt;a href=&quot;#&quot;&gt;Menu&lt;/a&gt;&lt;/li&gt;
+      &lt;li toggle-top-bar class=&quot;menu-icon&quot;&gt;&lt;a href=&quot;#&quot;&gt;Menu&lt;/a&gt;&lt;/li&gt;
     &lt;/ul&gt;
 
-    &lt;section class=&quot;top-bar-section&quot;&gt;
+    &lt;top-bar-section&gt;
       &lt;!-- Right Nav Section --&gt;
       &lt;ul class=&quot;right&quot;&gt;
         &lt;li class=&quot;active&quot;&gt;&lt;a href=&quot;#&quot;&gt;Active&lt;/a&gt;&lt;/li&gt;
-        &lt;li class=&quot;has-dropdown&quot;&gt;
+        &lt;li has-dropdown&gt;
           &lt;a href=&quot;#&quot;&gt;Dropdown&lt;/a&gt;
-          &lt;ul class=&quot;dropdown&quot;&gt;
+          &lt;ul top-bar-dropdown&gt;
             &lt;li&gt;&lt;a href=&quot;#&quot;&gt;First link in dropdown&lt;/a&gt;&lt;/li&gt;
           &lt;/ul&gt;
         &lt;/li&gt;
@@ -1829,23 +1831,15 @@ appendToBody: false
       &lt;ul class=&quot;left&quot;&gt;
         &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Left&lt;/a&gt;&lt;/li&gt;
       &lt;/ul&gt;
-    &lt;/section&gt;
-  &lt;/nav&gt;
+    &lt;/top-bar-section&gt;
+  &lt;/top-bar&gt;
 &lt;/div&gt;</code></pre>
                     </div>
                   </tab>
                   <tab heading="JavaScript">
                     <div plunker-content="javascript">
                       <pre ng-non-bindable><code data-language="javascript">var TopBarDemoCtrl = function ($scope) {
-    $scope.settings = {
-        sticky_class : &#x27;sticky&#x27;,
-        custom_back_text: true,
-        back_text: &#x27;Back&#x27;,
-        is_hover: true,
-        mobile_show_parent_link: true,
-        scrolltop : true,
-        sticky_on : &#x27;all&#x27;
-    };
+
 };
 </code></pre>
                     </div>
@@ -1855,22 +1849,14 @@ appendToBody: false
             </div>
           </section>
           <script>var TopBarDemoCtrl = function ($scope) {
-    $scope.settings = {
-        sticky_class : 'sticky',
-        custom_back_text: true,
-        back_text: 'Back',
-        is_hover: true,
-        mobile_show_parent_link: true,
-        scrolltop : true,
-        sticky_on : 'all'
-    };
+
 };
 </script>
         
           <section id="tour">
             <div class="page-header">
               <h1>Tour<small>
-                (<a target="_blank" href="https://github.com/circlingthesun/angular-foundation/tree/master/src/tour">mm.foundation.tour</a>)
+                (<a target="_blank" href="https://github.com/madmimi/angular-foundation/tree/master/src/tour">mm.foundation.tour</a>)
               </small></h1>
             </div>
             <div class="row">
@@ -1979,7 +1965,7 @@ $tooltipProvider. See the <a href="#tooltip">tooltip</a> section for more inform
           <section id="typeahead">
             <div class="page-header">
               <h1>Typeahead<small>
-                (<a target="_blank" href="https://github.com/circlingthesun/angular-foundation/tree/master/src/typeahead">mm.foundation.typeahead</a>)
+                (<a target="_blank" href="https://github.com/madmimi/angular-foundation/tree/master/src/typeahead">mm.foundation.typeahead</a>)
               </small></h1>
             </div>
             <div class="row">
@@ -2198,8 +2184,8 @@ Minimal wait time after last character typed before typeahead kicks-in</p></li>
 </div><!-- /.main -->
 <footer class="footer">
   <div class="container">
-    <p>Code licensed under <a href="https://github.com/circlingthesun/angular-foundation/blob/master/LICENSE">MIT License</a>.</p>
-    <p><a href="https://github.com/circlingthesun/angular-foundation/issues?state=open">Issues</a></p>
+    <p>Code licensed under <a href="https://github.com/madmimi/angular-foundation/blob/master/LICENSE">MIT License</a>.</p>
+    <p><a href="https://github.com/madmimi/angular-foundation/issues?state=open">Issues</a></p>
   </div>
 </footer>
 <script src="assets/rainbow.js"></script>
